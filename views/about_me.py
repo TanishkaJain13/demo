@@ -17,7 +17,7 @@ def display():
     col1, col2 = st.columns(2,gap="small", vertical_alignment="center")
 
     with col1:
-        st.image("./assets/girl-profile.png",width=230)
+        st.image("./assets/girl-profile.jpg",width=230)
     with col2:
         st.title("Sven Alchemy", anchor=False)
         st.write("Data Analyst, asisting enterprises by supporting data-driven decision making.")
